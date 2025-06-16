@@ -15,7 +15,7 @@ An intelligent media archive system that runs entirely personal laptop, using op
 
 ## Project Phases
 
-### 🎬 Phase 1: Video Processing Foundation (Current)
+### Phase 1: Video Processing Foundation (Current)
 **Goal**: Basic video scene detection and analysis
 
 **Key Features**:
@@ -24,8 +24,6 @@ An intelligent media archive system that runs entirely personal laptop, using op
 - Performance optimization for M1 Mac
 - Threshold sensitivity analysis
 - Visual scene change inspection
-
-**Status**: ✅ **Complete** - Processing videos at ~30x real-time speed
 
 ---
 
@@ -40,7 +38,7 @@ An intelligent media archive system that runs entirely personal laptop, using op
 
 ---
 
-### 🔍 Phase 3: Advanced Analytics (Future)
+### Phase 3: Advanced Analytics (Future)
 **Goal**: Cross-modal content intelligence
 
 **Planned Features**:
@@ -51,7 +49,7 @@ An intelligent media archive system that runs entirely personal laptop, using op
 - Automatic video summaries
 
 ### Interactive Exploration
-📓 **[Video Processing Exploration Notebook](notebooks/01_video_processing_exploration.ipynb)**
+**[Video Processing Exploration Notebook](notebooks/01_video_processing_exploration.ipynb)**
 
 Jupyter notebook with:
 - Step-by-step video analysis
