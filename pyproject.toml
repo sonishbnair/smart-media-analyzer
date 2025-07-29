@@ -1,10 +1,11 @@
 [project]
 name = "smart-media-analyzer"
-version = "0.1.0"
-description = "Add your description here"
+version = "0.2.0"
+description = "Frugal AI-powered media archive analyzer with scene detection, CLIP analysis, and vector search"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    # Existing dependencies
     "ipykernel>=6.29.5",
     "jupyter>=1.1.1",
     "scenedetect[opencv]>=0.6.6",
@@ -12,4 +13,10 @@ dependencies = [
     "open-clip-torch>=2.32.0",
     "torch>=2.7.1",
     "torchvision>=0.22.1",
+    
+    # NEW: Required for SQLAlchemy ORM database
+    "sqlalchemy>=2.0.0",
+    "faiss-cpu>=1.8.0",
+    "numpy>=1.24.0",
+    "pillow>=10.0.0",
 ]

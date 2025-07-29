@@ -10,7 +10,11 @@ wheels/
 Samples_Video-Images/
 uv.lock
     
+# Database file
+database/databases/media_archive.db
 
+# notebooks copy
+notebooks/01_video_processing_exploration_copy.ipynb
 
 # Virtual environments
 .venv
